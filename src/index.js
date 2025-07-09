@@ -1,8 +1,14 @@
 import express from 'express';
+import path from 'path';
+import  url  from 'url';
+
 const app = express();
-const PORT = 5000; 
+const __filename = url.fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
+const PORT = 3000; 
 
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.listen(PORT, () => {
