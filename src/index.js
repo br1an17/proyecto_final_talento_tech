@@ -1,15 +1,15 @@
 import express from 'express';
 import path from 'path';
 import  url  from 'url';
+const PORT = 3000; 
 
 const app = express();
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const PORT = 3000; 
 
 app.use(express.static(path.join(__dirname, 'public')));
-
+console.log(path.join(__dirname, 'public'));
 
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en el puerto http://localhost:${PORT}`);
