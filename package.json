@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/br1an17/proyecto_final_talento_tech#readme",
   "dependencies": {
+    "dotenv": "^17.2.0",
     "express": "^5.1.0"
   }
 }
