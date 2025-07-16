@@ -19,16 +19,11 @@ app.use((req, res) => {
     res.status(404).json({ message: 'Ruta no encontrada' });
 });
 
-// import express from "express";
-// import userRoutes from "./src/routes/user.routes.js";
+const PORT = process.env.PORT || 3000;
 
-// const app = express();
-// app.use(express.json());
-// app.use("/api/users", userRoutes);
-// import dotenv from "dotenv";
-// dotenv.config();
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en puerto http://localhost:${PORT}`);
+});
 
-// const PORT = process.env.PORT || 3000;
-// app.listen(PORT, () => {
-//   console.log(`Servidor corriendo en puerto http://localhost:${PORT}`);
-// });
+
+

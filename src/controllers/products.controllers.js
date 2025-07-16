@@ -1,4 +1,4 @@
-import usersServices from "../services/users.services.js";
+import usersServices from "../services/products.services.js";
 
 const getAllUsers = (req, res) => {
   const users = usersServices.getAllUsers();
