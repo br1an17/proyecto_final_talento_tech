@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node --watch src/index.js",
+    "start": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/br1an17/proyecto_final_talento_tech.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Brian Paez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/br1an17/proyecto_final_talento_tech/issues"

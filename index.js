@@ -3,8 +3,8 @@ import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
-import productsRouter from './routes/products.routes.js';
-import authRouter from './routes/auth.routes.js';
+import productsRouter from './src/routes/products.routes.js';
+import authRouter from './src/routes/auth.routes.js';
 
 dotenv.config();
 
