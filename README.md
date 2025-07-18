@@ -1,7 +1,5 @@
 # proyecto final talento tech
 
-Este es el proyecto final de Node.JS
-
 * Descripción:
 
 API REST que permite crear, leer, actualizar y eliminar productos usando Firebase Firestore como base de datos, protegiendo rutas con autenticación JWT y construida con Express en estructura escalable.
